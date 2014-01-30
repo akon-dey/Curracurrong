@@ -19,16 +19,10 @@ package au.edu.sydney.Curracurrong.runtime.server;
 import au.edu.sydney.Curracurrong.datatype.ParsingException;
 
 import java.io.*;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.util.Collections;
-import java.util.Enumeration;
-
 import org.antlr.runtime.ANTLRFileStream;
 import org.antlr.runtime.CharStream;
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.RecognitionException;
-import au.edu.sydney.Curracurrong.org.sunspotworld.MonitorSPOT;
 
 import au.edu.sydney.Curracurrong.queryLanguage.TLexer;
 import au.edu.sydney.Curracurrong.queryLanguage.TParser;
@@ -63,10 +57,7 @@ public class CurracurrongServer {
 		} catch (Exception e) {
             System.out.println("CASCADE: unable to fetch information about network interfaces");
 		}
-		System.out.println("Our radio address = " + ourAddress);
-
-		MonitorSPOT monitor = new MonitorSPOT();
-		monitor.start();
+		System.out.println("Our address = " + ourAddress);
 
 		System.out.println("start...");
 
