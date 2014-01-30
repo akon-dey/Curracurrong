@@ -29,6 +29,10 @@ import au.edu.sydney.Curracurrong.runtime.server.ServerCommunicator;
  * 
  * The manifest specifies this class as MIDlet-1, which means it will
  * be selected for execution.
+ * 
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class CurracurrongNode {
 	

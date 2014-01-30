@@ -16,16 +16,12 @@
 
 package au.edu.sydney.Curracurrong.queryLanguage;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 
-/**
- *
- * @author Saeed Attar, Vasvi Kakkad
- * University of Sydney
- */
 public class StreamNodeSink extends StreamNode {
     @Override
     boolean isSenseOp() {

@@ -16,18 +16,8 @@
 
 package au.edu.sydney.Curracurrong.runtime.node;
 
-//import runtime.node.Communicator;
-
-//import com.sun.spot.io.j2me.radiogram.RadiogramConnection;
-//import com.sun.spot.peripheral.radio.IRadioPolicyManager;
 import java.io.IOException;
-import java.util.Collections;
 import java.util.Hashtable;
-//import javax.microedition.io.Connector;
-//import javax.microedition.io.Datagram;
-//import com.sun.spot.peripheral.radio.RadioFactory;
-//import com.sun.spot.peripheral.radio.RadioPolicy;
-//import com.sun.spot.util.IEEEAddress;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
@@ -35,11 +25,6 @@ import java.io.ObjectOutputStream;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-
-/*import ksn.io.ObjectOutputStream;
-import ksn.io.ObjectInputStream;*/
 import au.edu.sydney.Curracurrong.datatype.DRecord;
 import au.edu.sydney.Curracurrong.datatype.DString;
 import au.edu.sydney.Curracurrong.datatype.ParsingException;
@@ -59,7 +44,9 @@ import au.edu.sydney.Curracurrong.util.NetworkAddress;
  * on other nodes.
  * Communicator is singleton.
  *
- * @author Vasvi Kakkad, Saeed Attar
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class NodeCommunicator extends Communicator {
 

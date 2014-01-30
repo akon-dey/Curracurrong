@@ -23,7 +23,9 @@ import java.util.Vector;
  * A set of String manipulation utilities, many of which are implementations of
  * common functions excluded from the Squawk libraries
  * 
- * @author Tim Dawborn
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class StringTools {
 	private StringTools() {

@@ -25,10 +25,10 @@ import au.edu.sydney.Curracurrong.datatype.ParsingException;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 
-
 /**
- *
- * @author vasvi kakkad
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class StreamOpSelect extends StreamOpFilter {
 

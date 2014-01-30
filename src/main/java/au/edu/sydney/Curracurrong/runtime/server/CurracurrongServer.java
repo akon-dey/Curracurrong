@@ -31,7 +31,9 @@ import au.edu.sydney.Curracurrong.scheduler.Scheduler;
 import au.edu.sydney.Curracurrong.util.NetworkAddress;
 
 /**
- * Sample Sun SPOT host application
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class CurracurrongServer {
 	protected ServerAdministrator admin;

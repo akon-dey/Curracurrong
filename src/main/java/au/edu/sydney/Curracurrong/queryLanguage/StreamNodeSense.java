@@ -17,9 +17,9 @@
 package au.edu.sydney.Curracurrong.queryLanguage;
 
 /**
- *
- * @author Saeed Attar, Vasvi Kakkad
- * University of Sydney
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 
 import au.edu.sydney.Curracurrong.datatype.DInteger64;

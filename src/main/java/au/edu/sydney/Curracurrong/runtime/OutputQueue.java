@@ -19,9 +19,9 @@ package au.edu.sydney.Curracurrong.runtime;
 import java.util.Vector;
 
 /**
- *
- * @author Saeed Attar, Vasvi Kakkad
- * The University of Sydney
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class OutputQueue {
 

@@ -16,18 +16,12 @@
 
 package au.edu.sydney.Curracurrong.queryLanguage;
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 /**
  * This class keeps the constant variables of the system
  *
- * @author Bernhard Scholz, Akon Dey, Vasvi Kakkad
- * University of Sydney
- *
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public interface Constants {
 	// Default directory for creating .dot and image files

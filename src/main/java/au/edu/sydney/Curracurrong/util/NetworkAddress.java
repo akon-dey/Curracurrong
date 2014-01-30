@@ -26,8 +26,9 @@ import java.util.Enumeration;
 /**
  * Utility class to deal with network addresses.
  * 
- * @author Akon Dey (akon.dey@gmail.com)
- *
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class NetworkAddress {
 	public static  InetAddress getAddress() throws Exception {

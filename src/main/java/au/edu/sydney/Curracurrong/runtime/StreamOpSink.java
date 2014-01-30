@@ -24,10 +24,10 @@ import au.edu.sydney.Curracurrong.datatype.ParsingException;
 import java.io.*;
 import java.util.Hashtable;
 
-
 /**
- * 
- * @author Vasvi Kakkad, Akon Dey University of Sydney
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class StreamOpSink extends StreamOperator {
 	private PrintStream out;

@@ -45,9 +45,12 @@ import au.edu.sydney.Curracurrong.util.NetworkAddress;
  * input queues of stream operators and also notify scheduler about it. In first step we assume that
  * the stream operators network is static and communicator knows the location of other stream operators
  * on other nodes.
+ * 
  * Communicator is singleton.
  *
- * @author Vasvi Kakkad, Saeed Attar, Akon Dey
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class ServerCommunicator extends Communicator {
 

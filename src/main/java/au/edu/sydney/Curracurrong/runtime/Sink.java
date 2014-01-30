@@ -25,7 +25,9 @@ import au.edu.sydney.Curracurrong.datatype.Data;
 import au.edu.sydney.Curracurrong.datatype.ParsingException;
 
 /**
- * @author Akon Dey - University of Sydney
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public abstract class Sink {
 	int opID = -1;

@@ -21,8 +21,9 @@ import java.io.IOException;
 /**
  * This class presents DFloat which is floating point data type
  *
- * @author Saeed Attar, Vasvi Kakkad
- * The University of Sydney
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class DFloat extends Data {
 

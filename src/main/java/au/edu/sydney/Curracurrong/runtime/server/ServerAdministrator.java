@@ -44,8 +44,9 @@ import au.edu.sydney.Curracurrong.queryLanguage.SuspendRadio;
  * based on receiving commands from gateway)
  * Administrator is singleton.
  *
- * @author Saeed Attar, Vasvi Kakkad, Akon Dey
- * University of Sydney
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class ServerAdministrator extends Administrator {
 

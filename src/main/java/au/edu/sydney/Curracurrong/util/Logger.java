@@ -23,7 +23,9 @@ import java.io.PrintStream;
  * A basic logging utility implementation for logging information to
  * PrintStream's on a severity level basis
  * 
- * @author Tim Dawborn
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public class Logger {
 	public static final byte NONE = 0;

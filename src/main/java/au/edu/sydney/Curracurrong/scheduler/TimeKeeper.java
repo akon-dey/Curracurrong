@@ -20,7 +20,9 @@ package au.edu.sydney.Curracurrong.scheduler;
  * This class is used to keep the synchronized time of the SunSPOT, so that a
  * singular global time can be implemented across all the spots.
  *
- * @author Saeed Attar
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 class TimeKeeper {
     private static final TimeKeeper instance = new TimeKeeper();

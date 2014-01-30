@@ -23,7 +23,9 @@ package au.edu.sydney.Curracurrong.scheduler;
  * href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Comparable.html"
  * >http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Comparable.html</a>)
  * 
- * @author Raymes Khoury
+ * @author Akon Dey (akon.dey@sydney.edu.au), University of Sydney
+ * @author Vasvi Kakkad (vasvi.kakkad@sydney.edu.au), University of Sydney
+ * @author Bernhard Scholz (bernhard.scholz@sydney.edu.au), University of Sydney
  */
 public interface Comparable {
 	/**
