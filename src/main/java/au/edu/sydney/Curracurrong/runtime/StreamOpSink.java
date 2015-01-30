@@ -35,7 +35,7 @@ public class StreamOpSink extends StreamOperator {
 	// count receive packets
 	private int counter;
 
-	private static final String DEFAULT_SINK_OPERATOR = "runtime.DefaultSink";
+	private static final String DEFAULT_SINK_OPERATOR = "au.edu.sydney.Curracurrong.runtime.DefaultSink";
 	private Sink sink;
 
 	/**
@@ -55,7 +55,7 @@ public class StreamOpSink extends StreamOperator {
 				try {
 					sensorName = (DString) property.getElement(1);
 					sink = (Sink) Class.forName(
-							"runtime." + sensorName.tostring()).newInstance();
+							"au.edu.sydney.Curracurrong.runtime." + sensorName.tostring()).newInstance();
 				} catch (ParsingException e) {
 					e.printStackTrace();
 					sink = (Sink) Class.forName(DEFAULT_SINK_OPERATOR)

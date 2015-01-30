@@ -35,7 +35,7 @@ public interface Constants {
 	public static final double DEFAULT_SAMPLE_RATE = 10;
 
 	// package name for using in class.forname
-	public static final String PACKAGE_NAME = "queryLanguage";
+	public static final String PACKAGE_NAME = "au.edu.sydney.Curracurrong.queryLanguage";
 
 	// installed (Graphviz) dot executable
 	public static final String DOT = "C:\\Program Files\\Graphviz2.26.3\\bin\\dot.exe";

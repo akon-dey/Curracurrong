@@ -592,7 +592,7 @@ public class TParser extends Parser {
 
                     StreamNode node=null;
                          try {
-                                String className = "queryLanguage.StreamNode" + (ID12!=null?ID12.getText():null);
+                                String className = "au.edu.sydney.Curracurrong.queryLanguage.StreamNode" + (ID12!=null?ID12.getText():null);
                                 Class nodeClass = Class.forName(className);
                                 node = (StreamNode) nodeClass.newInstance();
                                 retval.entry = retval.exit = node;
