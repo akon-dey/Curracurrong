@@ -32,7 +32,7 @@ import au.edu.sydney.Curracurrong.datatype.ParsingException;
  */
 public class StreamOpSense extends TimeTriggered {
 
-	private static final String DEFAULT_SENSE_OPERATOR = “au.edu.sydney.Curracurrong.runtime.DefaultSensor";
+	private static final String DEFAULT_SENSE_OPERATOR = "au.edu.sydney.Curracurrong.runtime.DefaultSensor";
 	private Sensor sensor = null;
 	private boolean timeTriggered = false;
 
