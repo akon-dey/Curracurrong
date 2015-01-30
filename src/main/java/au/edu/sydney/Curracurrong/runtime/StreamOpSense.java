@@ -32,7 +32,7 @@ import au.edu.sydney.Curracurrong.datatype.ParsingException;
  */
 public class StreamOpSense extends TimeTriggered {
 
-	private static final String DEFAULT_SENSE_OPERATOR = "runtime.DefaultSensor";
+	private static final String DEFAULT_SENSE_OPERATOR = “au.edu.sydney.Curracurrong.runtime.DefaultSensor";
 	private Sensor sensor = null;
 	private boolean timeTriggered = false;
 
@@ -46,7 +46,7 @@ public class StreamOpSense extends TimeTriggered {
 				try {
 					sensorName = (DString) property.getElement(1);
 					sensor = (Sensor) Class.forName(
-							"runtime." + sensorName.tostring()).newInstance();
+							"au.edu.sydney.Curracurrong.runtime." + sensorName.tostring()).newInstance();
 				} catch (ParsingException e) {
 					e.printStackTrace();
 					sensor = (Sensor) Class.forName(DEFAULT_SENSE_OPERATOR)

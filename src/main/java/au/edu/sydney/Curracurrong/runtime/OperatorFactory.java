@@ -41,7 +41,7 @@ public class OperatorFactory {
         String type = operatorType.substring("StreamNode".length());
         operatorType = "StreamOp" + type;
         try {
-            String className = "runtime." + operatorType;
+            String className = "au.edu.sydney.Curracurrong.runtime." + operatorType;
             streamOperator = (StreamOperator) Class.forName(className).newInstance();
         }
         catch (InstantiationException e) {
